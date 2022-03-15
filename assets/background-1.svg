@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   sodipodi:docname="background-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="0.44122677"
+     inkscape:cx="993.82003"
+     inkscape:cy="634.59432"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter30446"
+       inkscape:label="filter0"
+       x="-9.222262e-10"
+       y="-8.7918641e-10"
+       width="1"
+       height="1">
+      <feBlend
+         mode="normal"
+         in2="BackgroundImage"
+         id="feBlend63859" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="mix-blend-mode:screen">
+    <ellipse
+       style="fill:#55ff55;fill-opacity:0.795153;stroke:#008080;stroke-width:0;filter:url(#filter30446)"
+       id="path26682"
+       cx="318.46329"
+       cy="386.23083"
+       rx="271.08319"
+       ry="284.35382" />
+    <ellipse
+       style="fill:#5555ff;fill-opacity:0.795153;stroke:#008080;stroke-width:0;filter:url(#filter30446)"
+       id="path26682-3"
+       cx="548.22589"
+       cy="664.40009"
+       rx="271.08319"
+       ry="284.35382" />
+    <path
+       id="path29764"
+       style="fill:#ff5555;fill-opacity:0.8;stroke:#008080;stroke-width:0"
+       inkscape:transform-center-x="-3.005822"
+       inkscape:transform-center-y="-50.796948"
+       d="m 1864.1141,925.38967 -455.5469,-0.68003 -200.1991,0.71341 1.107,-190.16392 1.2268,-220.51706 298.3226,182.77791 z"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   sodipodi:docname="background-3-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="0.44122677"
+     inkscape:cx="993.82003"
+     inkscape:cy="634.59432"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter30446"
+       inkscape:label="filter0"
+       x="-9.222262e-10"
+       y="-8.7918641e-10"
+       width="1"
+       height="1">
+      <feBlend
+         mode="normal"
+         in2="BackgroundImage"
+         id="feBlend63859" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="mix-blend-mode:screen">
+    <path
+       sodipodi:type="star"
+       style="fill:#55ff55;fill-opacity:0.8;stroke:#008080;stroke-width:0"
+       id="path65042"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="521.52423"
+       sodipodi:cy="964.16235"
+       sodipodi:r1="471.97751"
+       sodipodi:r2="235.98875"
+       sodipodi:arg1="0.51760616"
+       sodipodi:arg2="1.5648037"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 931.67559,1197.6974 -408.73717,2.4495 -408.73718,2.4494 202.24731,-355.20149 202.24732,-355.20149 206.48986,352.75206 z"
+       inkscape:transform-center-x="60.533834"
+       inkscape:transform-center-y="-27.874499"
+       transform="matrix(0.64726605,0.25320899,-0.26039496,0.66637686,278.18385,-122.45431)" />
+    <ellipse
+       style="fill:#ff5555;fill-opacity:0.8;stroke:#008080;stroke-width:0"
+       id="path65290"
+       cx="1549.4412"
+       cy="473.6683"
+       rx="296.00809"
+       ry="289.67859" />
+  </g>
+</svg>
