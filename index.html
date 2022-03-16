@@ -9,15 +9,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav class="nav-show">
-    <ul>
-      <li><a>Home</a></li>
-      <li><a>News</a></li>
-      <li><a>Contact</a></li>
-      <li><a>About</a></li>
+    <ul class="nav-ul">
+      <li onclick="goTo(1950)" class="nav-li li-red"><a>Skills</a></li>
+      <li onclick="goTo(930)" class="nav-li li-green"><a>About</a></li>
+      <li onclick="goTo(0)" class="nav-li li-blue"><a>Home</a></li>
     </ul>
   </nav>
 
@@ -32,25 +32,42 @@
 
   <section id="about">
     <div id="about-container">
-      <h1 id="about-title">About Me</h1>
+      <h1 class="title">About Me</h1>
       <p id="about-text">My name is Athallah Muhammad Maajid. I'm from Medan. I'm 14 years old. Currently learning Flutter and Statistics. Want to be a data scientist someday.</p>
     </div>
   </section>
 
-  <section id="skills-1">
-
-    <div class="grid-container">
-      <div class="item1">asdasd</div>
-      <div class="item2">asdasd</div>
-      <div class="item3">asdasd</div>
+  <section class="skill">
+    <div class="skill-background animate__animated animate__pulse animate__infinite animate__slower"></div>
+    <div class="skill-content">
+      <h1 class="title" style="text-align: center;">Skills</h1>
+      <div class="skill-row">
+        <div class="skill-item">
+          <img src="assets/html.svg" alt="HTML" height="200" width="200"/>
+        </div>
+        <div class="skill-item">
+          <img src="assets/css.svg" alt="HTML" height="200" width="200"/>
+        </div>
+        <div class="skill-item">
+          <img src="assets/python.svg" alt="HTML" height="200" width="200"/>
+        </div>
+        <div class="skill-item">
+          <img src="assets/django.svg" alt="HTML" height="200" width="200"/>
+        </div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-item">
+          <img src="assets/dart.svg" alt="HTML" height="200" width="200"/>
+        </div>
+        <div class="skill-item">
+        <img src="assets/flutter.svg" alt="HTML" height="200" width="200"/>
+        </div>
+        <div class="skill-item">
+          <img src="assets/git.svg" alt="HTML" height="200" width="200"/>
+        </div>
+      </div>  
     </div>
-
   </section>
-
-  <section id="skills-2">
-
-  </section>
-
 
   <script src="index.js"></script>
 </body>

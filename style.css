@@ -1,39 +1,60 @@
 html, body {
   margin:0px;
   height:100%;
+  width: 100%;
   overflow-x: hidden;
 }
 
 .nav-show {
-  background-color: transparent;
+  position: fixed;
+  display: block;
+  background-color: white;
+  width: 100%;
 }
 
-.nav-hide {
-  background-color: black;
+.nav-stick {
+  position: fixed;
+  display: block;
+  box-shadow: 1px 1px 3px grey;
+  background-color: white;
+  width: 100%;
 }
 
-ul {
+.nav-ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 100px;
   padding: 0;
 }
 
-li {
+.nav-li {
+  display: inline;
   float: right;
 }
 
-li a {
+.nav-li a {
   display: block;
-  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: black;
+.li-red:hover {
+  background-color: rgba(255, 85, 85, 80) !important;
   color: white;
+  cursor: pointer;
+}
+
+.li-green:hover {
+  background-color: rgba(85, 255, 85, 80) !important;
+  color: white;
+  cursor: pointer;
+}
+
+.li-blue:hover {
+  background-color: rgba(85, 85, 255, 80) !important;
+  color: white;
+  cursor: pointer;
 }
 
 .jumbotron {
@@ -43,7 +64,7 @@ li a:hover {
 }
 
 #head {
-  background-image: url('assets/background-1.png') !important;
+  background-image: url('assets/background-1.svg') !important;
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -81,7 +102,7 @@ li a:hover {
   width: 50%;
 }
 
-#about-title {
+.title {
   font-size: 64px;
   font-family: 'Poppins', sans-serif;
 }
@@ -91,12 +112,23 @@ li a:hover {
   font-size: 24px;
 }
 
-#skills-1 {
-  background-image: url('assets/background-3-1.svg') !important;
-  height: 100vh;
-  background-position: center;
+.skill {
+  position: relative;
+}
+
+.skill-background {
+  position: absolute;
+  background-image: url('assets/background-3-2.svg') !important;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
   background-size: cover;
-  justify-content: center;
+  background-position: center;
+}
+
+.skill-content {
+  position: relative;
+  z-index: 1;
 }
 
 #skills-2 {
@@ -106,10 +138,20 @@ li a:hover {
   background-size: cover;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
+.skill-row {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  justify-content:space-around;
+}
+
+.skill-item {
+  display: flex;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 1px 1px 6px #303030;
+  border-radius: 50%;
+  align-items: center;
   justify-content: center;
 }

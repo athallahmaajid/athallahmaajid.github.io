@@ -1,10 +1,15 @@
-let myID = document.querySelector("nav");
+let body = document.getElementsByTagName("body")[0];
+let nav = document.getElementsByTagName("nav")[0];
 
-window.onscroll = function(e) {
-  console.log(e);
-  if (window.pageYOffset > 0) {
-    myID.className = "nav-hide"
+function goTo(coordinate) {
+  body.scrollTo({top: coordinate, behavior: "smooth"});
+}
+
+body.addEventListener("scroll", function() {
+  console.log(body.scrollTop);
+  if (body.scrollTop == 0) {
+    nav.className = "nav-show";
   } else {
-    myID.className = "nav-show"
+    nav.className = "nav-stick";
   }
-};
+});

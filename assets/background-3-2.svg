@@ -23,10 +23,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     showguides="false"
+     showguides="true"
      inkscape:zoom="0.44122677"
-     inkscape:cx="994.95323"
-     inkscape:cy="634.59432"
+     inkscape:cx="824.97261"
+     inkscape:cy="346.76047"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
      inkscape:window-x="0"
@@ -48,6 +48,52 @@
          in2="BackgroundImage"
          id="feBlend63859" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter3605"
+       x="-0.016215774"
+       y="-0.01657009"
+       width="1.0324315"
+       height="1.0331402">
+      <feGaussianBlur
+         stdDeviation="2 2"
+         result="fbSourceGraphic"
+         id="feGaussianBlur3603" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3641" />
+      <feGaussianBlur
+         id="feGaussianBlur3643"
+         stdDeviation="2 2"
+         result="blur"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter3609"
+       x="-0.010207307"
+       y="-0.010220698"
+       width="1.0204146"
+       height="1.0204414">
+      <feGaussianBlur
+         stdDeviation="2 2"
+         result="fbSourceGraphic"
+         id="feGaussianBlur3607" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3645" />
+      <feGaussianBlur
+         id="feGaussianBlur3647"
+         stdDeviation="2 2"
+         result="blur"
+         in="fbSourceGraphic" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -55,15 +101,15 @@
      id="layer1"
      style="mix-blend-mode:screen">
     <ellipse
-       style="fill:#5555ff;fill-opacity:0.8;stroke:#008080;stroke-width:0"
+       style="fill:#5555ff;fill-opacity:0.8;stroke:#008080;stroke-width:0;filter:url(#filter3605)"
        id="path65290"
-       cx="598.03119"
-       cy="793.29779"
+       cx="379.87164"
+       cy="691.50653"
        rx="296.00809"
        ry="289.67859" />
     <path
        sodipodi:type="star"
-       style="fill:#55ff55;fill-opacity:0.8;stroke:#008080;stroke-width:0"
+       style="fill:#55ff55;fill-opacity:0.8;stroke:#008080;stroke-width:0;filter:url(#filter3609)"
        id="path65710"
        inkscape:flatsided="true"
        sodipodi:sides="6"
@@ -76,6 +122,6 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="M 1869.1678,600.03517 1525.987,944.89916 1055.7356,820.12788 928.66501,350.4926 1271.8458,5.628612 1742.0972,130.39989 Z"
-       transform="matrix(0.62582826,0,0,0.64317691,510.63725,144.65866)" />
+       transform="matrix(0.62582826,0,0,0.64317691,715.86244,169.93635)" />
   </g>
 </svg>
