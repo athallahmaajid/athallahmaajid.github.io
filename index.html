@@ -13,13 +13,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="nav-show">
-    <ul class="nav-ul">
-      <li onclick="goTo(1950)" class="nav-li li-red"><a>Skills</a></li>
-      <li onclick="goTo(930)" class="nav-li li-green"><a>About</a></li>
-      <li onclick="goTo(0)" class="nav-li li-blue"><a>Home</a></li>
-    </ul>
+  <nav onclick="openNav()" id="nav">
+    <div class="bar-1"></div>
+    <div class="bar-2"></div>
+    <div class="bar-3"></div>
   </nav>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a onclick="goTo(0)">Home</a>
+    <a onclick="goTo(950)">About</a>
+    <a onclick="goTo(2010)">Skills</a>
+    <a onclick="goTo(3500)">Contact</a>
+  </div>
 
   <section class="jumbotron">
     <div id="head">
@@ -68,6 +74,29 @@
       </div>  
     </div>
   </section>
+
+  <section class="contact">
+    <h1 class="title" style="text-align: center;margin-bottom: 0;margin-top: 150px;">Contact</h1>
+    <div class="contact-row">
+      <div class="contact-item">
+        <a href="https://github.com/athallahmaajid"><img src="assets/github.svg" alt="HTML" height="200" width="200"/></a>
+      </div>
+      <div class="contact-item">
+        <a href="mailto:athallahmaajid@gmail.com">
+        <img src="assets/mail.svg" alt="HTML" height="200" width="200"/>
+        </a>
+      </div>
+      <div class="contact-item">
+        <a href="https://t.me/stopitget">
+          <img src="assets/telegram.svg" alt="HTML" height="200" width="200"/>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Author: Athallah Muhammad Maajid</p>
+  </footer>
 
   <script src="index.js"></script>
 </body>

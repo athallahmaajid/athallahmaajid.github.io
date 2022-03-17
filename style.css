@@ -5,58 +5,91 @@ html, body {
   overflow-x: hidden;
 }
 
-.nav-show {
-  position: fixed;
-  display: block;
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1000;
+  top: 0; /* Stay at the top */
+  left: 0;
   background-color: white;
-  width: 100%;
-}
-
-.nav-stick {
-  position: fixed;
-  display: block;
-  box-shadow: 1px 1px 3px grey;
-  background-color: white;
-  width: 100%;
-}
-
-.nav-ul {
-  list-style-type: none;
-  margin: 0 100px;
-  padding: 0;
-}
-
-.nav-li {
-  display: inline;
-  float: right;
-}
-
-.nav-li a {
-  display: block;
+  background-image: url('assets/background-4.svg') !important;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   text-align: center;
-  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 3px #303030;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 12px 12px 12px 32px;
   text-decoration: none;
+  font-size: 64px;
+  font-family: "Poppins";
+  color: black;
+  display: block;
+  transition: 0.3s;
 }
 
-/* Change the link color to #111 (black) on hover */
-.li-red:hover {
-  background-color: rgba(255, 85, 85, 80) !important;
-  color: white;
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
   cursor: pointer;
+  color: #818181;
 }
 
-.li-green:hover {
-  background-color: rgba(85, 255, 85, 80) !important;
-  color: white;
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#nav {
   cursor: pointer;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  float: right;
+  z-index: 2;
 }
 
-.li-blue:hover {
-  background-color: rgba(85, 85, 255, 80) !important;
-  color: white;
-  cursor: pointer;
+.bar-1 {
+  width: 40px;
+  height: 3px;
+  background-color: black;
+  margin: 10px 5px;
 }
 
+.bar-2 {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 10px 5px;
+}
+.bar-3 {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 10px 5px;
+}
 .jumbotron {
   margin: 0;
   padding: 0;
@@ -71,7 +104,7 @@ html, body {
 }
 
 .head-container {
-  padding-left: 120px;
+  padding-left: 10%;
   padding-top: 200px;
 }
 
@@ -128,14 +161,7 @@ html, body {
 
 .skill-content {
   position: relative;
-  z-index: 1;
-}
-
-#skills-2 {
-  background-image: url('assets/background-3-2.svg') !important;
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
+  z-index: 0;
 }
 
 .skill-row {
@@ -154,4 +180,39 @@ html, body {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+}
+
+.contact {
+  background-image: url('assets/background-3-1.svg') !important;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-row {
+  height: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  justify-content:space-around;
+}
+
+.contact-item {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #f3f3f3f3;
+  color: black;
+  font-size: 20px;
+  font-family: "Poppins";
 }
