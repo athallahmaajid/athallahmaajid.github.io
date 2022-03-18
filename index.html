@@ -21,10 +21,10 @@
 
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a onclick="goTo(0)">Home</a>
-    <a onclick="goTo(950)">About</a>
-    <a onclick="goTo(2010)">Skills</a>
-    <a onclick="goTo(3500)">Contact</a>
+    <a onclick="goTo('head')">Home</a>
+    <a onclick="goTo('about')">About</a>
+    <a onclick="goTo('skill')">Skills</a>
+    <a onclick="goTo('contact')">Contact</a>
   </div>
 
   <section class="jumbotron">
@@ -42,7 +42,7 @@
     </div>
   </section>
 
-  <section class="skill">
+  <section id="skill">
     <div class="skill-background animate__animated animate__pulse animate__infinite animate__slower"></div>
     <div class="skill-content">
       <h1 class="title" style="text-align: center;">Skills</h1>
@@ -74,7 +74,7 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section id="contact">
     <h1 class="title" style="text-align: center;margin-bottom: 0;margin-top: 150px;">Contact</h1>
     <div class="contact-row">
       <div class="contact-item">
@@ -93,9 +93,9 @@
     </div>
   </section>
 
-  <footer class="footer">
+  <section class="footer">
     <p>Author: Athallah Muhammad Maajid</p>
-  </footer>
+  </section>
   <script src="index.js"></script>
 </body>
 </html>

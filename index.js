@@ -1,19 +1,11 @@
 let body = document.getElementsByTagName("body")[0];
 let nav = document.getElementsByTagName("nav")[0];
 
-function goTo(coordinate) {
+function goTo(id) {
   closeNav();
-  body.scrollTo({top: coordinate, behavior: "smooth"});
-}
-
-body.addEventListener("scroll", function() {
-  if (body.scrollTop == 0) {
-    nav.className = "nav-show";
-  } else {
-    nav.className = "nav-stick";
-  }
-});
-
+  document.getElementById(id).scrollIntoView({
+    behavior: 'smooth'
+  });}
 /* Open the sidenav */
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
