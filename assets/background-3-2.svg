@@ -25,7 +25,7 @@
      showgrid="false"
      showguides="true"
      inkscape:zoom="0.44122677"
-     inkscape:cx="824.97261"
+     inkscape:cx="725.25065"
      inkscape:cy="346.76047"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
@@ -75,10 +75,10 @@
        style="color-interpolation-filters:sRGB;"
        inkscape:label="Blur"
        id="filter3609"
-       x="-0.010207307"
-       y="-0.010220698"
-       width="1.0204146"
-       height="1.0204414">
+       x="-0.016215774"
+       y="-0.01657009"
+       width="1.0324315"
+       height="1.0331402">
       <feGaussianBlur
          stdDeviation="2 2"
          result="fbSourceGraphic"
@@ -101,7 +101,7 @@
      id="layer1"
      style="mix-blend-mode:screen">
     <ellipse
-       style="fill:#5555ff;fill-opacity:0.8;stroke:#008080;stroke-width:0;filter:url(#filter3605)"
+       style="fill:#5555ff;fill-opacity:0.8;stroke:#008080;stroke-width:0"
        id="path65290"
        cx="379.87164"
        cy="691.50653"
@@ -109,7 +109,7 @@
        ry="289.67859" />
     <path
        sodipodi:type="star"
-       style="fill:#55ff55;fill-opacity:0.8;stroke:#008080;stroke-width:0;filter:url(#filter3609)"
+       style="fill:#55ff55;fill-opacity:0.8;stroke:#008080;stroke-width:0"
        id="path65710"
        inkscape:flatsided="true"
        sodipodi:sides="6"

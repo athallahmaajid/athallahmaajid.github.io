@@ -96,11 +96,22 @@ html, body {
   box-sizing: border-box;
 }
 
-#head {
-  background-image: url('assets/background-1.svg') !important;
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
+@media screen and (min-width: 992px) {
+  #head {
+    background-image: url('assets/background-1.svg') !important;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }    
+}
+
+@media screen and (max-width: 992px) {
+  #head {
+    background-image: url('assets/background-1-mobile.svg') !important;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .head-container {
@@ -125,11 +136,22 @@ html, body {
 }
 
 
-#about {
-  background-image: url('assets/background-2.svg') !important;
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
+@media screen and (min-width: 992px) {
+  #about {
+    background-image: url('assets/background-2.svg') !important;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }    
+}
+
+@media screen and (max-width: 992px) {
+  #about {
+    background-image: url('assets/background-2-mobile.svg') !important;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 993px) {
@@ -162,14 +184,28 @@ html, body {
   position: relative;
 }
 
-.skill-background {
-  position: absolute;
-  background-image: url('assets/background-3-2.svg') !important;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-  background-size: cover;
-  background-position: center;
+@media screen and (min-width: 992px) {
+  .skill-background {
+    position: absolute;
+    background-image: url('assets/background-3-2.svg') !important;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+  }  
+}
+
+@media screen and (max-width: 992px) {
+  .skill-background {
+    position: absolute;
+    background-image: url('assets/background-3-1-mobile.svg') !important;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .skill-content {
@@ -237,7 +273,7 @@ html, body {
 
 @media screen and (max-width: 992px) {  
   #contact {
-    background-image: url('assets/background-3-1.svg') !important;
+    background-image: url('assets/background-3-2-mobile.svg') !important;
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -273,5 +309,5 @@ html, body {
   background-color: #f3f3f3f3;
   color: black;
   font-size: 20px;
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }

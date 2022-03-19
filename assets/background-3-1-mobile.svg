@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1125"
+   height="2436"
+   viewBox="0 0 1125 2436"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="background-3-1-mobile.svg"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.20507547"
+     inkscape:cx="-394.97654"
+     inkscape:cy="1355.5985"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter1570"
+       x="-0.0044446112"
+       y="-0.0045350093"
+       width="1.0088892"
+       height="1.00907">
+      <feGaussianBlur
+         stdDeviation="2 2"
+         result="blur"
+         id="feGaussianBlur1568" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#55ff55;fill-opacity:0.803584;stroke:#cc8080;stroke-width:0"
+       id="path895"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="974.40094"
+       sodipodi:cy="946.16974"
+       sodipodi:r1="553.84705"
+       sodipodi:r2="479.64563"
+       sodipodi:arg1="0.22424636"
+       sodipodi:arg2="0.74784514"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 1514.3807,1069.3296 1137.7313,1475.3859 597.75145,1352.226 434.42113,823.00985 811.07062,416.95357 1351.0504,540.11345 Z"
+       transform="matrix(0.62771243,0,0,0.6373171,326.33546,157.17984)" />
+    <circle
+       style="fill:#5555ff;fill-opacity:0.803584;stroke:#cc8080;stroke-width:0"
+       id="path1621"
+       cx="160.47365"
+       cy="1690.9897"
+       r="350.2276" />
+  </g>
+</svg>
