@@ -97,11 +97,11 @@ html, body {
 }
 
 #head {
-  background-image: url('assets/background-1.svg') !important;
+  background-image: url('assets/background-1-mobile.svg') !important;
   height: 100vh;
   background-position: center;
   background-size: cover;
-}    
+}
 
 .head-container {
   padding-left: 10%;
@@ -126,17 +126,16 @@ html, body {
 
 
 #about {
-  background-image: url('assets/background-2.svg') !important;
+  background-image: url('assets/background-2-mobile.svg') !important;
   height: 100vh;
   background-position: center;
   background-size: cover;
-}    
-
+}
 
 #about-container {
   padding-left: 7%;
   padding-top: 50px;
-  width: 50%;
+  width: 90%;
 }
 
 .title {
@@ -155,7 +154,7 @@ html, body {
 
 .skill-background {
   position: absolute;
-  background-image: url('assets/background-3-2.svg') !important;
+  background-image: url('assets/background-3-1-mobile.svg') !important;
   height: 100%;
   width: 100%;
   z-index: 0;
@@ -163,17 +162,18 @@ html, body {
   background-position: center;
 }
 
-  .skill-content {
+.skill-content {
   position: relative;
   z-index: 1;
 }
 
 .skill-row {
-  height: 40vh;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   align-content: space-around;
-  justify-content:space-around;
+  justify-content: space-around;
   z-index: 1;
 }
 
@@ -183,8 +183,8 @@ html, body {
   background-color: white;
   box-shadow: 1px 1px 6px #303030;
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .project-container {
@@ -199,12 +199,13 @@ html, body {
   box-shadow: 2px 2px 5px #0000007f;
   background-color: white;
   border-radius: 16px;
-  width: 60%;
+  width: 70%;
   height: 30%;
   margin-bottom: 64px;
   padding: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 .project-detail {
@@ -215,8 +216,6 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .project-img {
@@ -243,23 +242,26 @@ html, body {
 }
 
 #contact {
-  background-image: url('assets/background-3-1.svg') !important;
+  background-image: url('assets/background-3-2-mobile.svg') !important;
   height: 100vh;
   background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
+  margin-bottom: 25%;
 }
 
-.contact-row {
-  height: 100%;
-  margin-left: 25%;
-  margin-right: 25%;
-  display: flex;
-  align-items: center;
-  align-content: space-around;
-  justify-content:space-around;
-}    
+@media screen and (min-width: 992px) {
+  .contact-row {
+    height: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content:space-around;
+  }    
+}
 
 .contact-item {
   padding: 10px;
