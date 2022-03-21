@@ -187,6 +187,10 @@ html, body {
   margin-top: 15px;
 }
 
+#project {
+  background-image: url('assets/background-5-mobile.svg') !important;
+}
+
 .project-container {
   display: flex;
   flex-direction: column;

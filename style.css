@@ -187,6 +187,10 @@ html, body {
   justify-content: center;
 }
 
+#project {
+  background-image: url('assets/background-5.svg') !important;
+}
+
 .project-container {
   display: flex;
   flex-direction: column;
